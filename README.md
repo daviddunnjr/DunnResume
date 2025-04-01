@@ -4,7 +4,9 @@ I built a structured resume to make upkeep more manageable. A consistent HTML st
 
 **Contents**
 - [Exciting Features](#exciting-features)
-- [Print to PDF Guidance](#print-to-pdf-guidance)
+- [Enable JavaScript Content]
+- [Print to PDF](#print-to-pdf)
+- [Include Your Phone Number](#include-your-phone-number)
 - [To Do](#to-do)
 
 
@@ -16,7 +18,11 @@ The first iteration of this resume brings these exciting features:
 - A sticky table header for identifying information provides a running heading in web or print.
 - Page structure and default style maximizes compatibility with `Print to PDF`.
 
-## Print to PDF Guidance
+## Enable JavaScript Content
+
+You'll have to run the website on a server to view scripted content. I use the `Live Server` extension for `Visual Studio Code`.
+
+## Print to PDF
 
 To avoid unintended format issues, follow these tips:
 
@@ -40,5 +46,3 @@ I would like to complete these tasks next:
 - Add additional `float:right;` sections such as certifications or awards.
 - Create a form to create new entries.
 - Create a more minimal theme.
-
-<!--Had some trouble with git credentials. Testing to see if it works now.-->
