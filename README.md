@@ -4,7 +4,7 @@ I built a structured resume to make upkeep more manageable. A consistent HTML st
 
 **Contents**
 - [Exciting Features](#exciting-features)
-- [Enable JavaScript Content]
+- [Enable JavaScript Content](#enable-javascript-content)
 - [Print to PDF](#print-to-pdf)
 - [Include Your Phone Number](#include-your-phone-number)
 - [To Do](#to-do)
