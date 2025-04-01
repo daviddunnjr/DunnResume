@@ -25,9 +25,18 @@ To avoid unintended format issues, follow these tips:
 - Scroll to the top of the page.
 - Ensure page breaks function properly.  Each company entry in `Experience` avoids page breaks inside.  If this behavior affects the appearance, alter the CSS `break-inside` behavior.
 
+## Include Your Phone Number
+
+I did not want to publish my personal phone number online, so I hid it in a file called `address.html`. To include your phone number, create `resources/address.html` and insert this code with your phone number substituting the `#` symbols.
+
+```html
+<a href="tel:+###########">#-###-###-####</a>
+```
+
 ## To Do
 
 I would like to complete these tasks next:
 
 - Add additional `float:right;` sections such as certifications or awards.
 - Create a form to create new entries.
+- Create a more minimal theme.

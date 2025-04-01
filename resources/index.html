@@ -3,6 +3,7 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
+    <script src="js/W3IncludeHtml.js"></script>
     <title>David Dunn, Jr. | Resume</title>
     <link rel="stylesheet" type="text/css" href="./css/default.css" />
 </head>
@@ -18,16 +19,21 @@
                         <div class="profile">
                             <img src="./images/david.jpg" />
                         </div>
-                        <div class="title">
+                        <div class="contact">
                             <h1 class="name">David Dunn, Jr.</h1>
                             <div class="byline">Technical Writing Senior Specialist and Computer Science Student</div>
-                        </div>
-                    </div>
-                    <div class="contact">
-                        <div class="links">
-                            <a href="https://www.ddunnbusiness.com/">My Website</a>
-                            <a href="https://www.linkedin.com/in/david-dunn-jr">My LinkedIn Profile</a>
-                            <a href="mailto:ddunnbusiness@gmail.com">My Email Address</a>
+                            <div class="address">
+                                <div class="city">Nashville</div>
+                                <div class="state">Tennessee</div>
+                                <div class="country">United States</div>
+                            </div>
+                            <div class="links">
+                                <a href="https://www.ddunnbusiness.com">Website</a>
+                                <a href="https://www.linkedin.com/in/david-dunn-jr">LinkedIn</a>
+                                <a href="mailto:ddunnbusiness@gmail.com">Email</a>
+                                <a href="https://github.com/daviddunnjr">GitHub</a>
+                                <div class="phone" w3-include-html="address.html"></div>
+                            </div>
                         </div>
                     </div>
                 </header>
@@ -526,6 +532,8 @@
         </tbody>
     </table>
     
-    
+    <script>
+        includeHTML();
+    </script>
 </body>
 </html>
