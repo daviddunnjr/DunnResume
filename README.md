@@ -40,3 +40,5 @@ I would like to complete these tasks next:
 - Add additional `float:right;` sections such as certifications or awards.
 - Create a form to create new entries.
 - Create a more minimal theme.
+
+<!--Had some trouble with git credentials. Testing to see if it works now.-->
