@@ -218,3 +218,35 @@ th{
     margin:0;
     padding: 0;
 }
+.tools {
+    display:flex;
+    flex-direction: column;
+    border: solid 1pt black;
+    background-color: lightgray;
+}
+.tools::before {
+    content:"Resume Tools";
+    font-weight: bold;
+    padding: 0.25em;
+    margin:2pt;
+    color:white;
+    background-image: linear-gradient(to right, blue,lightblue);
+}
+.tools>.themes::before {
+    content:"Themes:";
+}
+.tools>.edit::before {
+    content:"Edit:";
+}
+.tools>div{
+    margin:2pt;
+    padding:0.25em;
+}
+.tools>.general {
+    text-align: center;
+}
+@media print {
+    .tools {
+        display: none;
+    }
+}
