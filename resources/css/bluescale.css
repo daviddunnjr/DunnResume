@@ -1,0 +1,22 @@
+img {
+    display:none;
+}
+.icon {
+    display:none;
+}
+.banner {
+    display:none;
+}
+main {
+    margin-left: 2rem;
+}
+.experience h3.name{
+    border-bottom: solid;
+    margin-bottom: 0.5em;
+}
+.university h3.name{
+    margin-bottom:0;
+}
+.info {
+    width: 100%;
+}

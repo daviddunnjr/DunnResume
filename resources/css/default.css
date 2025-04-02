@@ -52,27 +52,17 @@ table{
     width:100%;
 }
 h3.name{
-    margin:0;
+    margin-top:0;
+    margin-left:0;
+    margin-right:0;
 }
 h4.title{
     margin:0;
 }
-.company>.roll>div{
-    margin-left: 2rem;
-    padding-left: 3rem;
-    border-left: solid lightgray;
-}
 .company>.roll:last-child>div{
 border-left: none;
 }
-h4.title::before{
-    display: inline-block;
-    content:"●";
-    width: 4rem;
-    color: lightgray;
-    text-align: center;
-    margin-right: 1rem;
-}
+
 .company>.roll>div:last-child{
     padding-bottom: 1rem;
 }
@@ -220,9 +210,12 @@ th{
 }
 .tools {
     display:flex;
+    width: fit-content;
     flex-direction: column;
     border: solid 1pt black;
     background-color: lightgray;
+    margin-left: auto;
+    margin-right: auto;
 }
 .tools::before {
     content:"Resume Tools";
@@ -232,17 +225,20 @@ th{
     color:white;
     background-image: linear-gradient(to right, blue,lightblue);
 }
-.tools>.themes::before {
+.tools button {
+    margin-left: 0.5em;
+}
+.tools>#themes::before {
     content:"Themes:";
 }
-.tools>.edit::before {
+.tools>#edit::before {
     content:"Edit:";
 }
-.tools>div{
+.tool{
     margin:2pt;
     padding:0.25em;
 }
-.tools>.general {
+.tools>.window {
     text-align: center;
 }
 @media print {
