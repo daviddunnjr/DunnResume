@@ -12,8 +12,12 @@ I built a structured resume to make upkeep more manageable. A consistent HTML st
 
 ## Exciting Features
 
-The first iteration of this resume brings these exciting features:
+The first this resume brings these exciting features:
 
+- Easy tools that hide when you print.
+- Swap themes with a button press.
+- Show/hide tools.
+- Modular architecture to improve workflow.
 - A class for every data field type maximizes stylesheet utility.
 - A sticky table header for identifying information provides a running heading in web or print.
 - Page structure and default style maximizes compatibility with `Print to PDF`.
@@ -30,6 +34,9 @@ To avoid unintended format issues, follow these tips:
 - Enable `Background graphics`.
 - Scroll to the top of the page.
 - Ensure page breaks function properly.  Each company entry in `Experience` avoids page breaks inside.  If this behavior affects the appearance, alter the CSS `break-inside` behavior.
+
+> **Note:**
+> The `Resume Tools` pseudo-window does not display in print.
 
 ## Include Your Phone Number
 
