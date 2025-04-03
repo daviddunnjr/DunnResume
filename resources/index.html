@@ -66,14 +66,7 @@
         </tbody>
     </table>
     <div class="tools" id="tools">
-        <div class="topbar">
-            <div class="title">Resume Tools</div>
-            <div class="buttons">
-                <button id="hide" type="button" style="display:inline-block" onclick="Hide()">🗕︎</button>
-                <button id="show" type="button" style="display:none" onclick="Show()">🗗︎</button>
-                <button id="close" type="button" onclick="Close()">🗙︎</button>
-            </div>
-        </div>
+        <div class="topbar" id="topbar" w3-include-html="tools/topbar.html"></div>
         <div class="content" id="content" w3-include-html="tools/content.html"></div>
     </div>
     <script>

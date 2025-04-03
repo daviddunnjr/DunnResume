@@ -223,7 +223,7 @@ th{
     padding: 0.25em;
     margin:2pt;
     color:white;
-    background-image: linear-gradient(to right, blue,lightblue);
+    background-image: linear-gradient(to right, blue, lightblue);
 }
 .tools button {
     margin-left: 0.5em;

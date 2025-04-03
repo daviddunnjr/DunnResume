@@ -1,3 +1,10 @@
+:root {
+    --fore: #112233;
+    --midfore: #334455;
+    --mid: #556677;
+    --back: #DDEEFF;
+    --fullback: #FFFFFF;
+}
 img {
     display:none;
 }
@@ -11,12 +18,25 @@ main {
     margin-left: 2rem;
 }
 .experience h3.name{
-    border-bottom: solid;
     margin-bottom: 0.5em;
+}
+.experience .roll{
+    margin-left: 1em;
 }
 .university h3.name{
     margin-bottom:0;
 }
 .info {
     width: 100%;
+}
+.experience>.heading {
+    /*background-image: linear-gradient(to right, var(--midfore) 10em, var(--fullback) 15em 100%);
+    color: var(--back);
+    padding:0.25em;
+    margin-top:0.25em;
+    margin-bottom:0.25em;
+    margin-top:0.25em;
+    margin-left:0;*/
+    display:flex;
+    border-bottom: solid;
 }
