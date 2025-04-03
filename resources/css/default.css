@@ -214,11 +214,11 @@ th{
     flex-direction: column;
     border: solid 1pt black;
     background-color: lightgray;
-    margin-left: auto;
-    margin-right: auto;
+    position:fixed;
+    top:0.5em;
+    right:0.5em;
 }
-.tools::before {
-    content:"Resume Tools";
+.tools>.topbar {
     font-weight: bold;
     padding: 0.25em;
     margin:2pt;
@@ -228,21 +228,30 @@ th{
 .tools button {
     margin-left: 0.5em;
 }
-.tools>#themes::before {
+.content>#themes::before {
     content:"Themes:";
 }
-.tools>#edit::before {
+.content>#edit::before {
     content:"Edit:";
 }
 .tool{
     margin:2pt;
     padding:0.25em;
 }
-.tools>.window {
+.content>.window {
     text-align: center;
 }
 @media print {
     .tools {
         display: none;
     }
+}
+.window>button {
+    margin-bottom: 0.5em;
+}
+.topbar>.title {
+    display: inline-block;
+}
+.topbar>.buttons {
+    float:right;
 }

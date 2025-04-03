@@ -3,12 +3,10 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8" />
-    <script src="js/W3IncludeHtml.js"></script>
-    <script src="js/ChangeTheme.js"></script>
-    <script src="js/ShowHide.js"></script>
+    <script src="js/main.js"></script>
     <title>David Dunn, Jr. | Resume</title>
     <link rel="icon" type="image/x-icon" href="./images/Technical Writing-David Dunn.png">
-    <link rel="stylesheet" type="text/css" href="#" id="theme-css">
+    <link rel="stylesheet" type="text/css" href="./css/linkedish.css" id="theme-css">
     <link rel="stylesheet" type="text/css" href="./css/default.css" />
 </head>
 <body>
@@ -40,11 +38,6 @@
                             </div>
                         </div> <!--/.contact-->
                     </div> <!--/.identification-->
-                    <div class="tools">
-                        <div class="tool" id="themes" w3-include-html="tools/themes.html"></div>
-                        <div class="tool" id="edit" w3-include-html="tools/edit.html"></div>
-                        <div class="window" w3-include-html="tools/window.html"></div>
-                    </div>
                 </header>
             </th>
         </tr></thead>
@@ -72,6 +65,17 @@
             </td></tr>
         </tbody>
     </table>
+    <div class="tools" id="tools">
+        <div class="topbar">
+            <div class="title">Resume Tools</div>
+            <div class="buttons">
+                <button id="hide" type="button" style="display:inline-block" onclick="Hide()">🗕︎</button>
+                <button id="show" type="button" style="display:none" onclick="Show()">🗗︎</button>
+                <button id="close" type="button" onclick="Close()">🗙︎</button>
+            </div>
+        </div>
+        <div class="content" id="content" w3-include-html="tools/content.html"></div>
+    </div>
     <script>
         includeHTML();
     </script>

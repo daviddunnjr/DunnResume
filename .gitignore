@@ -2,3 +2,5 @@
 /.vscode
 /DunnResume.sln
 /resources/address.html
+/output/*
+/output

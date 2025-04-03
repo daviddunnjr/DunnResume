@@ -1,3 +1,28 @@
+function ChangeTheme(x) {
+    document.querySelector("link[id='theme-css']").href = "./css/"+x+".css";
+    return;
+}
+
+function PrintPage() {
+    window.print();
+}
+
+function Show() {
+    document.getElementById('content').style.display = "block";
+    document.getElementById('show').style.display = `none`;
+    document.getElementById('hide').style.display = `inline-block`;
+}
+
+function Hide() {
+    document.getElementById('content').style.display = 'none';
+    document.getElementById('show').style.display = `inline-block`;
+    document.getElementById('hide').style.display = `none`;
+}
+
+function Close() {
+    document.getElementById('tools').style.display = 'none';
+}
+
 /* Borrowed from W3 */
 function includeHTML() {
     var z, i, elmnt, file, xhttp;
@@ -25,4 +50,4 @@ function includeHTML() {
         return;
       }
     }
-  }
+}
