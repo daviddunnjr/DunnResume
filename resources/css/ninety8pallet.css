@@ -1,0 +1,7 @@
+:root{
+    --titlegrad: linear-gradient(to right, var(--titlestart), var(--titleend));
+    --titlestart: blue;
+    --titleend: lightblue;
+    --windowbg: lightgray;
+    --titlecolor: white;
+}

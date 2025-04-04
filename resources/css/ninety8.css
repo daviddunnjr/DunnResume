@@ -1,0 +1,124 @@
+@import "ninety8pallet.css";
+
+.icon{
+    display: none;
+    font-size: 1rem;
+    height:1rem;
+    width:1rem;
+    background: var(--titlestart);
+    margin-top:2pt;
+    margin-left:2pt;
+    margin-right:0;
+    margin-bottom: 0;
+    padding: calc(0.25rem + 1pt);
+}
+.icon>img{
+    height:1rem;
+
+}
+
+h2::before {
+    display: block;
+    font-size: 1rem;
+    color: var(--titlecolor);
+    background-image: var(--titlegrad);
+    padding: 0.25em;
+    margin-left: -0.5em;
+    margin-top: -0.5em;
+    margin-right: -0.5em;
+}
+.experience h2::before {
+    content: "🖥️ Command Prompt - Experience";
+}
+.education h2::before {
+    content: "🖥️ Command Prompt - Education";
+}
+h2{
+    border:outset;
+    background-color: var(--windowbg);
+    font-size: 2rem;
+    padding: 0.5rem;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+}
+h2::after{
+    display:block;
+    font-size: 1rem;
+    padding:0.25em;
+    background-color: black;
+    color:white;
+    border:inset;
+}
+.experience h2::after{
+    content: "C:\\Users\\admin\\experience> ls ";
+}
+.education h2::after{
+    content: "C:\\Users\\admin\\education> ls ";
+}
+.company{
+    border:outset;
+    background-color: var(--windowbg);
+    margin-top:1em;
+    margin-bottom: 1em;
+}
+.university{
+    border:outset;
+    background-color: var(--windowbg);
+    margin-top:1em;
+    margin-bottom: 1em;
+}
+h3{
+    display: block;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.25em;
+    margin-top:0;
+    margin-bottom:2pt;
+    margin-left:0;
+    margin-right:0;
+    color:white;
+    background-image: var(--titlegrad);
+}
+h3::before{
+    display: inline-block;
+    margin-right:0.25em;
+}
+.info{
+    display:block;
+    margin-left:0;
+    padding-left: 0;
+}
+
+h4{
+    display: block;
+    margin-top: -1em;
+    margin-bottom: 2pt;
+    background: lightgray;
+    width:fit-content;
+    padding-left:0.25em;
+    padding-right:0.25em;
+}
+.roll {
+    margin-top:1em;
+    margin-bottom:1em;
+    margin-left:0.5em;
+    margin-right:0.5em;
+    padding:0.5em;
+    border:groove;
+}
+.extent{
+    margin-left: 0.5rem;
+}
+.location{
+    margin-left: 0.5rem;
+}
+.education .info>div{
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+.education .info>div:first-of-type{
+    margin-top: 0.5em;
+}
+.education .info>div:last-child{
+    margin-bottom: 0.5em;
+}

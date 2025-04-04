@@ -1,9 +1,8 @@
-:root {
-    --fore: #112233;
-    --midfore: #334455;
-    --mid: #556677;
-    --back: #DDEEFF;
-    --fullback: #FFFFFF;
+@import "defaultpallet.css";
+
+:root{
+    color: var(--fore);
+    background-color: var(--fullback);
 }
 img {
     display:none;
@@ -39,4 +38,27 @@ main {
     margin-left:0;*/
     display:flex;
     border-bottom: solid;
+}
+h3.name{
+    margin-top:0;
+    margin-left:0;
+    margin-right:0;
+}
+.education{
+    max-width:25%;
+    background-color: var(--midfore);
+    color:var(--back);
+}
+h3::before{
+    display: none;
+}
+h4.title{
+    margin:0;
+}
+.overview{
+    display: flex;
+    gap: 1rem;
+}
+.company>.roll>div:last-child{
+    padding-bottom: 1rem;
 }

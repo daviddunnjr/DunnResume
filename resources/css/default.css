@@ -1,22 +1,12 @@
+@import "defaultpallet.css";
 :root {
-    --fore: #112233;
-    --midfore: #334455;
-    --mid: #556677;
-    --back: #DDEEFF;
-    --fullback: #FFFFFF;
     font-size: 10pt;
-    color: var(--fore);
-    background-color: var(--fullback);
     line-height: 1.25;
 }
 table{
     max-width: 8.5in;
     margin-left:auto;
     margin-right: auto;
-}
-.overview{
-    display: flex;
-    gap: 1rem;
 }
 .location>div{
     display:inline;
@@ -44,27 +34,12 @@ table{
 .extent>div:last-child::after{
     content:"";
 }
-.icon{
-    width:4rem;
-    min-width:3rem;
-}
-.icon>img{
-    width:100%;
-}
-h3.name{
-    margin-top:0;
-    margin-left:0;
-    margin-right:0;
-}
-h4.title{
-    margin:0;
-}
-.company>.roll:last-child>div{
-border-left: none;
+.icon {
+    max-width: 4em;
 }
 
-.company>.roll>div:last-child{
-    padding-bottom: 1rem;
+.company>.roll:last-child>div{
+border-left: none;
 }
 .company>.overview{
     margin-bottom:1rem;
@@ -108,10 +83,7 @@ border-left: none;
 }
 .education{
     float:right;
-    max-width:25%;
     width:max-content;
-    background-color: var(--midfore);
-    color:var(--back);
     padding-left: 1rem;
     padding-right:1rem;
     margin-left:1rem;
@@ -212,7 +184,7 @@ th{
     display:flex;
     width: fit-content;
     flex-direction: column;
-    border: solid 1pt black;
+    border:outset;
     background-color: lightgray;
     position:fixed;
     top:0.5em;
@@ -229,14 +201,26 @@ th{
     margin-left: 0.5em;
 }
 .content>#themes::before {
-    content:"Themes:";
+    content:"Themes";
 }
 .content>#edit::before {
-    content:"Edit:";
+    content:"Edit";
+}
+.tool::before{
+    display: block;
+    margin-top: -1em;
+    background: lightgray;
+    width:fit-content;
+    padding-left:0.25em;
+    padding-right:0.25em;
 }
 .tool{
-    margin:2pt;
-    padding:0.25em;
+    margin-top:1em;
+    margin-bottom:1em;
+    margin-left:0.5em;
+    margin-right:0.5em;
+    padding:0.5em;
+    border:groove;
 }
 .content>.window {
     text-align: center;
