@@ -1,6 +1,6 @@
 # David Dunn, Jr.'s HTML Resume
 
-I built a structured resume to make upkeep more manageable. A consistent HTML structure makes it easier to reformat the document, and will make it easier to create an add/remove utility in the future.
+I built a structured resume to make upkeep more manageable. A consistent HTML structure makes it easier to reformat the document, and will make it easier to create an add/remove utility in the future. [Preview the resume here.](https://daviddunnjr.github.io/DunnResume/resources/)
 
 **Contents**
 - [Features](#features)
