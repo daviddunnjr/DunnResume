@@ -122,3 +122,44 @@ h4{
 .education .info>div:last-child{
     margin-bottom: 0.5em;
 }
+header {
+    border:outset;
+    background-color: var(--windowbg);
+    margin-top:1em;
+    margin-bottom: 0;
+}
+header::before {
+    display: block;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.25em;
+    margin-top:0;
+    margin-bottom:2pt;
+    margin-left:0;
+    margin-right:0;
+    color:white;
+    background-image: var(--titlegrad);
+    content: "📄 David Dunn, Jr. - Resume"
+}
+
+.profile {
+    border:outset;
+    background-color: var(--windowbg);
+    margin-top:1em;
+    margin-bottom: 0;
+    height: fit-content;
+}
+
+.profile::before {
+    display: block;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 0.25em;
+    margin-top:0;
+    margin-bottom:2pt;
+    margin-left:0;
+    margin-right:0;
+    color:white;
+    background-image: var(--titlegrad);
+    content: "🖼️ David Dunn, Jr."
+}

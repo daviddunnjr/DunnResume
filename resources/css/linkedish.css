@@ -50,3 +50,7 @@ h4.title{
 .company>.roll>div:last-child{
     padding-bottom: 1rem;
 }
+.profile>img{
+    border-radius: 5rem;
+    border: solid var(--fullback);
+}

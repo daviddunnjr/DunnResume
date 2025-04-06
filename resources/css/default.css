@@ -107,8 +107,6 @@ border-left: none;
 .profile>img{
     height:10rem;
     width:10rem;
-    border-radius: 5rem;
-    border: solid var(--fullback);
 }
 .identification{
     display: flex;
