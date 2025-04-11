@@ -139,7 +139,8 @@ header::before {
     margin-right:0;
     color:white;
     background-image: var(--titlegrad);
-    content: "📄 David Dunn, Jr. - Resume"
+    content: "📄 David Dunn, Jr. - Resume";
+    border: none;
 }
 
 .profile {
@@ -161,5 +162,9 @@ header::before {
     margin-right:0;
     color:white;
     background-image: var(--titlegrad);
-    content: "🖼️ David Dunn, Jr."
+    content: "🖼️ David Dunn, Jr.";
+    border: none;
+}
+.banner {
+    height: 5em;
 }

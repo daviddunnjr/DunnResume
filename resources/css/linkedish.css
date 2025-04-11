@@ -54,3 +54,6 @@ h4.title{
     border-radius: 5rem;
     border: solid var(--fullback);
 }
+.banner{
+    height:10rem;
+}

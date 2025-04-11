@@ -92,7 +92,6 @@ border-left: none;
     border-bottom-left-radius: 0.25rem;
 }
 .banner{
-    height:10rem;
     overflow: hidden;
 }
 .banner>img{
